@@ -7,7 +7,7 @@ x.getDetails();
 
 const y= new Books("hihi","hohohohohoh");
 y.getDetails();
-
+/* bcng */
 const a= new Books("kokola","tytytyty");
 a.getDetails();
 const library = new Library();
