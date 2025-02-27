@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Bibliotheque</title>
+</head>
+<body>
+    <h1>Bibliothèque</h1>
+
+    <h2>Ajouter un livre</h2>
+    <form id="book-form">
+    <label for="titre">Titre:</label>
+    <input type="text" id="titre" required>
+    <label for="auteur">Auteur:</label>
+    <input type="text" id="auteur" required>
+    <button type="submit">Ajouter le livre</button>
+    </form>
+
+
+    <h2>Recherche un livre par titre</h2>
+    <input type="text" id="chercher-titre" placeholder="Titre de livre">
+    <button id="chercher-btn">Rechercher</button>
+    <p id="chercher-resultat"></p>
+
+</body>
+<script src="script.js" type="module">
+    
+</script>
+</html>
