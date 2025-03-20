@@ -9,30 +9,42 @@
 
   <h1>Bibliothèque</h1>
 
-  <!-- Formulaire pour ajouter un livre -->
   <h2>Ajouter un livre</h2>
+
   <form onsubmit="event.preventDefault(); addBookToLibrary();">
+
     <label for="title">Titre :</label>
+
     <input type="text" id="title" required>
+
     <br><br>
     <label for="author">Auteur :</label>
+
     <input type="text" id="author" required>
     <br><br>
+
     <button type="submit">Ajouter le livre</button>
+
   </form>
 
   <h2>Livres dans la bibliothèque</h2>
+
   <button onclick="listBooks()">Lister les livres</button>
   <ul id="booksList"></ul>
 
   <h2>Rechercher un livre par titre</h2>
+
   <input type="text" id="searchTitle" placeholder="Titre du livre">
+
   <button onclick="findBook()">Rechercher</button>
   <p id="result"></p>
 
-  <!-- Inclusion des scripts JavaScript -->
+  -- Inclusion scripts JavaScript --
+
+
   <script src="book.js"></script>
   <script src="library.js"></script>
   <script src="index.js"></script>
+
 </body>
 </html>
